@@ -1,0 +1,20 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    color: #e5e7eb;
+    scroll-behavior: smooth;
+    font-size: 18px;
+}
+
+/* ---------- Starfield Canvas Background ---------- */
+#star-canvas {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: -1;
+}
